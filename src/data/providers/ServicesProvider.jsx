@@ -28,5 +28,3 @@ export const ServicesProvider = ({ children }) => {
 };
 
 export const useServices = () => useContext(ServicesContext);
-
-export { ServicesProvider, useServices };
